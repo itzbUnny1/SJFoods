@@ -1,0 +1,51 @@
+/* flexBox */
+
+.logoAndNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.col-1-of-4 {
+    flex: 0 0 25%;
+}
+
+.col-2-of-4 {
+    flex: 0 0 50%;
+}
+
+.col-3-of-4 {
+    flex: 0 0 33.3%;
+}
+
+
+/* grid */
+
+.item2 {
+    grid-area: 1/2/5/6;
+}
+
+.d-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.d-grid img {
+    width: 100%;
+    opacity: 0.9;
+    transform: scale(0.9);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.displayGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.columnWise {
+    grid-template-columns: 1 / 3;
+}

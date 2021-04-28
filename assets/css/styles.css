@@ -1,0 +1,289 @@
+/* primary colors */
+
+
+/* Orange Primary color   : #e75b1e
+Orange Secondary color : #90360f
+/* 
+#cf6d17 #e67e22; */
+
+
+/* global */
+
+:root {
+    --primaryColor: #e75b1e;
+    --secondaryColor: #90360f;
+    --btn-color: #cf6d17;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: cursive;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: var(--primaryColor);
+    padding: 20px;
+    transition: all .5s;
+}
+
+nav a:hover {
+    color: var(--secondaryColor);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    color: var(--primaryColor);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 20px;
+}
+
+section {
+    padding: 35px 0px;
+}
+
+.sectionHeading h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    color: var(--primaryColor);
+}
+
+.sectionHeading h2::after {
+    content: "";
+    border-bottom: 4px solid #e77e22;
+    display: block;
+    height: 20px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.headingSubText {
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.headingSubText small {
+    padding: initial;
+    line-height: 25px;
+    font-size: 82%;
+}
+
+.longCopy {
+    line-height: 180%;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+/* ==headerSection== */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.945), rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.075)), url(../images/banner-landscape.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.logo {
+    width: 70px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.parentDiv {
+    position: relative;
+}
+
+.parentDiv .headerText {
+    position: absolute;
+    left: 12%;
+    transform: translateY(145%);
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    /* buttons */
+}
+
+.buttons {
+    margin-top: 32px;
+}
+
+.btn {
+    color: #cf6d17;
+    padding: 5px 10px;
+    border: 1px solid #e75b1e;
+    border-radius: 15px;
+    transition: all .5s;
+}
+
+.btnFull {
+    color: #fff;
+    background-color: #cf6d17;
+    padding: 5px 10px;
+    border: 1px solid #e75b1e;
+    border-radius: 15px;
+}
+
+.btnFull:hover {
+    color: white;
+    background-color: #e77e22;
+}
+
+.d-grid img:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+/* sectionMeal */
+
+.sectionMeal {
+    background-color: #e5e5e5;
+}
+
+
+/* How it works */
+
+.howItWorks {
+    background-color: #e5e5e5;
+}
+
+.iphone {
+    width: 40%;
+}
+
+.iphone img {
+    width: 100%;
+}
+
+.button-app img {
+    height: 60px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.textPart {
+    margin-left: 50px;
+}
+
+.text {
+    margin: 10px 35px;
+}
+
+
+/* .stepBox {
+    border: 3px solid #cf6d17;
+    border-radius: 50%;
+    padding: 10px 25px;
+    font-size: 150%;
+    color: #cf6d17;
+     border: 2px solid #cf6d17;
+} */
+
+.ourCities img {
+    width: 100%;
+    padding: 5px;
+}
+
+.cityFeatures {
+    padding: 16px;
+}
+
+.cityFeatures small {
+    display: block;
+    text-align: center;
+    word-spacing: 4px;
+}
+
+.ourCities h3 {
+    text-align: center;
+}
+
+
+/* section Testimonials */
+
+.cardImg {
+    text-align: center;
+    position: relative;
+}
+
+.cardImg {
+    display: block;
+    position: relative;
+}
+
+.cardImg img {
+    width: 100%;
+    padding: 5px;
+}
+
+
+/* testimonials */
+
+.testimonials {
+    background-color: #0c0c0bb4;
+}
+
+blockquote {
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    padding: 10px 15px;
+    color: #e5e5e5;
+}
+
+blockquote::before {
+    content: '\201C';
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -5px;
+}
+
+cite img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+cite {
+    color: var(--primaryColor);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    display: block;
+}
+
+footer {
+    background-color: #0c0c0be0;
+    padding: 25px;
+    text-align: center;
+}
